@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  	
+.map_bg_hakkem {
+    background: #514D4A;
+    padding: 0;
+}
+.main_section {
+    padding: 120px 0;
+    display: block;
+    clear: both;
+    position: relative;
+}
+.back_map_bg {
+    display: block;
+    background: url(hakkemchichi_map.png) no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
+    position: relative;
+}
+.back_map_bg iframe {
+    position: absolute;
+    width: 82%;
+    top: 14%;
+    bottom: 10%;
+    left: 9%;
+    height: 72%;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	.main_section {
+		padding: 10px 0;
+	}
+	.back_map_bg {
+		height: 300px;
+	}
+}
+
+  </style>
+</head>
+<body>
+<section class="clearfix main_section map_bg_hakkem" id="reference">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="back_map_bg">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1500464327162!6m8!1m7!1sW0rTjW7_zYAAAAQvvljlBA!2m2!1d21.19976775330134!2d72.82745481521329!3f4.150979995727539!4f0!5f0.7820865974627469" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+</body>
+</html>
